@@ -15,14 +15,15 @@ Sắp hỗ trợ Tears Of Themis và Zenless Zone Zero.
 Hỗ trợ đa tài khoản.
 
 ## Đặc điểm
-* **Khá nhẹ** - Đoạn script nảy chỉ yêu cầu một cấu hình tối thiểu và chỉ có dưới 150 dòng code.
+* **Khá nhẹ** - Đoạn script này tùy chỉnh khá đơn giản và nó chỉ có dưới 150 dòng code.
 * **An toàn** - Đoạn script chạy trên Google Apps Script, không lo bị mất dữ liệu hay lộ tài khoản.
 * **Miễn phí** - Google Apps Script (của Google) là một dịch vụ MIỄN PHÍ.
 * **Đơn giản** - Đoạn script có thể chạy mà không cần trình duyệt và sẽ tự động thông báo qua Discord hoặc Telegram.
 
 ## Thiết lập
 1. Truy cập [Google Apps Script](https://script.google.com/home/start) và tạo cho mình 1 dự án mới, để tên như nào cũng được.
-2. Chọn phiên bản mà bạn muốn thông báo ([Discord version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-discord.gs) / [Telegram version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-telegram.gs)) và dán code. Refer to the instructions below to configure the config file and save it.
+2. Chọn phiên bản mà bạn muốn thông báo ([Discord version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-discord_vi-vn.gs) / [Telegram version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-telegram_vi-vn.gs)) và dán code.
+   THAM KHẢO HƯỚNG DẪN TÙY CHỈNH BÊN DƯỚI ĐỂ CẤU HÌNH FILE VÀ LƯU LẠI (PHẢI ĐỌC).
 3. Chọn "main" và bấm vào nút "Chạy" ở phía trên.  
    Grant the necessary permissions and confirm that the configuration is correct (Execution started > completed).
 4. Click the trigger button on the left side and add a new trigger.  
@@ -31,7 +32,7 @@ Hỗ trợ đa tài khoản.
    Select the type of time based trigger: Day timer  
    Select the time of day: recommended to choose any off-peak time between 0900 to 1500.
 
-## Configuration
+## Tùy chỉnh
 
 ```javascript
 const profiles = [
