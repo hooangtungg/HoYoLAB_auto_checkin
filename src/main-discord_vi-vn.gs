@@ -1,9 +1,9 @@
 const profiles = [
-  { token: "", 
+  { token: "ltoken=gBxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxCY; ltuid=26XXXXX20;", 
     gi: true, 
     hsr: true, 
     hi3: true, 
-    accountName: "Tên của bạn" }
+    accountName: "TÊN CỦA BẠN" }
 ];
 
 const discord_notify = false
