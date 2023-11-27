@@ -25,7 +25,7 @@ Hỗ trợ đa tài khoản.
 2. Chọn phiên bản mà bạn muốn thông báo ([Discord version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-discord_vi-vn.gs) / [Telegram version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-telegram_vi-vn.gs)) và dán code.
    THAM KHẢO HƯỚNG DẪN TÙY CHỈNH BÊN DƯỚI ĐỂ CẤU HÌNH FILE VÀ LƯU LẠI (PHẢI ĐỌC).
 3. Chọn "main" và bấm vào nút "Chạy" ở phía trên.  
-   Grant the necessary permissions and confirm that the configuration is correct (Execution started > completed).
+   Cấp quyền chạy cho script và  (Execution started > completed).
 4. Click the trigger button on the left side and add a new trigger.  
    Select the function to run: main  
    Select the event source: Time-driven  
