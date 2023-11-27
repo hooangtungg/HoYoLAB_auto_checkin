@@ -6,7 +6,7 @@
 <p align="center">
     <img src="https://img.shields.io/github/license/canaria3406/hoyolab-auto-sign?style=flat-square">
     <img src="https://img.shields.io/github/stars/canaria3406/hoyolab-auto-sign?style=flat-square">
-    <br><b>繁體中文</b>　<a href="/README.md">English</a>　<a href="/README_ru-ru.md">Русский</a>
+    <br><b>繁體中文</b>　<a href="/README.md">English</a>　<a href="/README_ru-ru.md">Русский</a>　<a href="/README_vi-vn.md">Tiếng Việt</a>
 </p>
 
 hoyolab自動簽到script，每月約可自動領取60石，堪比蚊子腿。  
