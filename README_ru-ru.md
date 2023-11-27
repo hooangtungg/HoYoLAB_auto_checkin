@@ -6,7 +6,7 @@
 <p align="center">
     <img src="https://img.shields.io/github/license/canaria3406/hoyolab-auto-sign?style=flat-square">
     <img src="https://img.shields.io/github/stars/canaria3406/hoyolab-auto-sign?style=flat-square">
-    <br><a href="/README_zh-tw.md">繁體中文</a>　<a href="/README.md">English</a>　<b>Русский</b>
+    <br><a href="/README_zh-tw.md">繁體中文</a>　<a href="/README.md">English</a>　<b>Русский</b>　<a href="/README_vi-vn.md">Tiếng Việt</a>
 </p>
 
 Легкий, безопасный и бесплатный скрипт, который автоматически собирает ежедневные награды HoYoLAB.
