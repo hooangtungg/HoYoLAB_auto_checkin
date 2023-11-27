@@ -137,17 +137,17 @@ const myTelegramID = "1XXXXXXX0"
 const telegramBotToken = "6XXXXXXXXX:AAAAAAAAAAXXXXXXXXXX8888888888Peko"
 ```
 
-1. **telegram_notify**
+1. **telegram_notify** - Thông báo ở Telegram
 
    Whether to enable Telegram notify.  
    If you want to enable auto check in notify, set it to true. If not, please set it to false.
 
-2. **myTelegramID** - Please enter your Telegram ID.
+2. **myTelegramID** - Vui lòng nhập Telegram ID của bạn.
 
    Use the `/getid` command to find your Telegram user ID by messaging [@IDBot](https://t.me/myidbot).  
    Copy your Telegram ID which like `123456780` and fill it in "quotes".  
 
-3. **telegramBotToken** - Please enter your Telegram Bot Token.
+3. **telegramBotToken** - Vui lòng nhập Telegram Bot Token của bạn.
 
    Use the `/newbot` command to create a new bot on Telegram by messaging [@BotFather](https://t.me/botfather).  
    Once you have finished creating the bot, you will receive your Telegram Bot Token, which like `110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw`.  
@@ -157,7 +157,7 @@ const telegramBotToken = "6XXXXXXXXX:AAAAAAAAAAXXXXXXXXXX8888888888Peko"
 </details>
 
 ## Demo
-If the auto check in process is success, it will send "OK".  
+If the auto check in process is success, it will send "Đã checkin".  
 If you have already check in today, it will send "Traveler/Trailblazer/Captain, you've already checked in today"  
 
 <details>
@@ -207,7 +207,7 @@ const telegramBotToken = "6XXXXXXXXX:AAAAAAAAAAXXXXXXXXXX8888888888Peko"
 
 </details>
 
-## Changelog
+## Nhật kí
 2022-12-30 Project launched.  
 2023-04-27 Add support for Honkai Impact 3rd, and Honkai: Star Rail.  
 2023-04-27 Add switch for Discord notify.  
