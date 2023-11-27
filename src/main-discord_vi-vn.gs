@@ -10,7 +10,7 @@ const discord_notify = false
 const myDiscordID = ""
 const discordWebhook = ""
 
-/** TẤT CẢ HƯỚNG DẪN VÀ BẢN QUYỀN THUỘC https://github.com/canaria3406/hoyolab-auto-sign **/
+/** TẤT CẢ HƯỚNG DẪN VÀ BẢN QUYỀN ĐỀU THUỘC https://github.com/canaria3406/hoyolab-auto-sign **/
 /** VUI LÒNG KHÔNG SỬA ĐỔI BẤT KÌ NỘI DUNG NÀO Ở DƯỚI ĐÂY ĐỂ TRÁNH TÌNH TRẠNG LỖI CÓ THỂ XẢY RA **/
 
 const urlDict = {
