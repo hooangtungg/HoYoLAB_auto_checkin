@@ -9,19 +9,21 @@
     <br><a href="/README_zh-tw.md">繁體中文</a>　<a href="/README.md">English</a>　<a href="/README_ru-ru.md">Русский</a>　<b>Tiếng Việt</b>
 </p>
 
-A lightweight, secure, and free script that automatically collect HoYoLAB daily check in rewards.  
-Supports Genshin Impact, Honkai Impact 3rd, and Honkai: Star Rail. Support multiple accounts.
+Một tập lệnh nhẹ, an toàn và miễn phí tự động nhận phần thưởng đăng nhập HoYoLAB hàng ngày.
+Hỗ trợ Genshin Impact, Honkai Impact 3 và Honkai: Star Rail.
+Sắp hỗ trợ Tears Of Themis và Zenless Zone Zero.
+Hỗ trợ đa tài khoản.
 
-## Features
-* **Lightweight** - The script only requires minimal configuration and is only 90 lines of code.
-* **Secure** - The script can be self-deployed to Google Apps Script, no worries about data leaks.
-* **Free** - Google Apps Script is currently a free service.
-* **Simple** - The script can run without a browser and will automatically notify you through Discord or Telegram.
+## Đặc điểm
+* **Tập lệnh nhẹ** - Đoạn script nảy chỉ yêu cầu một cấu hình tối thiểu và chỉ có dưới 150 dòng code.
+* **An toàn** - Đoạn script chạy trên Google Apps Script, không lo bị mất dữ liệu hay lộ tài khoản.
+* **Miễn phí** - Google Apps Script (của Google) là một dịch vụ MIỄN PHÍ.
+* **Đơn giản** - Đoạn script có thể chạy mà không cần trình duyệt và sẽ tự động thông báo qua Discord hoặc Telegram.
 
-## Setup
-1. Go to [Google Apps Script](https://script.google.com/home/start) and create a new project with your custom name.
-2. Select the editor and paste the code( [Discord version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-discord.gs) / [Telegram version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-telegram.gs) ). Refer to the instructions below to configure the config file and save it.
-3. Select "main" and click the "Run" button at the top.  
+## Thiết lập
+1. Truy cập [Google Apps Script](https://script.google.com/home/start) và tạo cho mình 1 dự án mới, để tên như nào cũng được.
+2. Chọn phiên bản mà bạn muốn thông báo ([Discord version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-discord.gs) / [Telegram version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-telegram.gs)) và dán code. Refer to the instructions below to configure the config file and save it.
+3. Chọn "main" và bấm vào nút "Chạy" ở phía trên.  
    Grant the necessary permissions and confirm that the configuration is correct (Execution started > completed).
 4. Click the trigger button on the left side and add a new trigger.  
    Select the function to run: main  
