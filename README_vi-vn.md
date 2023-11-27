@@ -9,13 +9,13 @@
     <br><a href="/README_zh-tw.md">繁體中文</a>　<a href="/README.md">English</a>　<a href="/README_ru-ru.md">Русский</a>　<b>Tiếng Việt</b>
 </p>
 
-Một tập lệnh nhẹ, an toàn và miễn phí tự động nhận phần thưởng đăng nhập HoYoLAB hàng ngày.
+Một script khá nhẹ, an toàn và miễn phí. Dùng để tự động nhận phần thưởng đăng nhập HoYoLAB hàng ngày.
 Hỗ trợ Genshin Impact, Honkai Impact 3 và Honkai: Star Rail.
 Sắp hỗ trợ Tears Of Themis và Zenless Zone Zero.
 Hỗ trợ đa tài khoản.
 
 ## Đặc điểm
-* **Tập lệnh nhẹ** - Đoạn script nảy chỉ yêu cầu một cấu hình tối thiểu và chỉ có dưới 150 dòng code.
+* **Khá nhẹ** - Đoạn script nảy chỉ yêu cầu một cấu hình tối thiểu và chỉ có dưới 150 dòng code.
 * **An toàn** - Đoạn script chạy trên Google Apps Script, không lo bị mất dữ liệu hay lộ tài khoản.
 * **Miễn phí** - Google Apps Script (của Google) là một dịch vụ MIỄN PHÍ.
 * **Đơn giản** - Đoạn script có thể chạy mà không cần trình duyệt và sẽ tự động thông báo qua Discord hoặc Telegram.
