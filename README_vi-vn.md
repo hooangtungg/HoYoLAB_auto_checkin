@@ -25,7 +25,7 @@ Hỗ trợ đa tài khoản.
 2. Chọn phiên bản mà bạn muốn thông báo ([Discord version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-discord_vi-vn.gs) / [Telegram version](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-telegram_vi-vn.gs)) và dán code.
    THAM KHẢO HƯỚNG DẪN TÙY CHỈNH BÊN DƯỚI ĐỂ CẤU HÌNH FILE VÀ LƯU LẠI (PHẢI ĐỌC).
 3. Chọn "main" và bấm vào nút "Chạy" ở phía trên.  
-   Cấp quyền chạy cho script và  (Execution started > completed).
+   Cấp quyền chạy cho script và đảm bảo rằng bạn đã tùy chỉnh đúng (Đã bắt đầu quá trình thực thi > Đã hoàn tất quá trình thực thi).
 4. Click the trigger button on the left side and add a new trigger.  
    Select the function to run: main  
    Select the event source: Time-driven  
@@ -39,13 +39,13 @@ const profiles = [
   { token: "account_mid_v2=123xyzabcd_hi; account_id_v2=26XXXXX20; ltoken_v2=v2_CANARIAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX3406; ltmid_v2=123xyzabcd_hi; ltuid_v2=26XXXXX20;", 
     genshin: true, 
     honkai_star_rail: true, 
-    honkai_3: false, 
-    accountName: "YOUR NICKNAME" }
+    honkai_3: true, 
+    accountName: "TÊN CỦA BẠN" }
 ];
 ```
 
-> HoYoLAB has changed the rules for tokens on July 2023, switching from the previous "ltoken" and "ltuid" to "ltoken_v2" and "ltuid_v2".
-Please log out from HoYoLAB using your browser, then log in again, and use [getToken.js](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/getToken.js) to obtain the new token for Google Apps Script.
+> Vào tháng 7 năm 2023, HoYoLAB đã thay các quy định cho token, chuyển đổi lần lượt từ "ltoken" và "ltuid" sang "ltoken_v2" và "ltuid_v2".
+Vui lòng đăng xuất tài khoản HoYoLAB, sau đó hãy đăng nhập lại, và sử dụng [getToken_vi-vn.js](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/getToken_vi-vn.js) để lấy token đã được sửa đổi cho Google Apps Script.
 
 <details>
 <summary><b>HoYoLAB settings</b></summary>
@@ -75,19 +75,19 @@ Please log out from HoYoLAB using your browser, then log in again, and use [getT
    }
    ```
 
-2. **genshin**
+2. **gi** - Genshin Impact
 
    Whether to enable auto check in for Genshin Impact.  
    If you want, set it to true. If not, please set it to false.  
    If you do not play Genshin Impact, or your account is not bound to a uid, please set it to false.
 
-3. **honkai_star_rail**
+3. **hsr** - Honkai: Star Rail
 
    Whether to enable auto check in for Honkai: Star Rail.  
    If you want, set it to true. If not, please set it to false.  
    If you do not play Honkai: Star Rail, or your account is not bound to a uid, please set it to false.
 
-4. **honkai_3**
+4. **hi3** - Honkai Impact 3
 
    Whether to enable auto check in for Honkai Impact 3rd.  
    If you want, set it to true. If not, please set it to false.  
