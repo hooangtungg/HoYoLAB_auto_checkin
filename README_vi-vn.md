@@ -26,11 +26,11 @@ Hỗ trợ đa tài khoản.
    THAM KHẢO HƯỚNG DẪN TÙY CHỈNH BÊN DƯỚI ĐỂ CẤU HÌNH FILE VÀ LƯU LẠI (PHẢI ĐỌC).
 3. Chọn "main" và bấm vào nút "Chạy" ở phía trên.  
    Cấp quyền chạy cho script và đảm bảo rằng bạn đã tùy chỉnh đúng (Đã bắt đầu quá trình thực thi > Đã hoàn tất quá trình thực thi).
-4. Click the trigger button on the left side and add a new trigger.  
-   Select the function to run: main  
-   Select the event source: Time-driven  
-   Select the type of time based trigger: Day timer  
-   Select the time of day: recommended to choose any off-peak time between 0900 to 1500.
+4. Nhấp vào nút kích hoạt ở phía bên trái và thêm trình kích hoạt mới.  
+   Chọn hàm để chạy: main
+   Chọn nguồn sự kiện: Theo thời gian  
+   Chọn loại trình kích hoạt dựa trên thời gian: Hẹn giờ ngày  
+   Chọn thời gian trong ngày: nên chọn bất kỳ thời gian thấp điểm nào trong khoảng từ 09:00 đến 15:00.
 
 ## Tùy chỉnh
 
@@ -50,10 +50,11 @@ Vui lòng đăng xuất tài khoản HoYoLAB, sau đó hãy đăng nhập lại,
 <details>
 <summary><b>HoYoLAB settings</b></summary>
 
-1. **token** - Please enter the token for HoYoLAB check-in page.
+1. **token** - Vui lòng nhập mã thông báo cho trang đăng ký HoYoLAB.
 
-   After entering the [HoYoLAB check-in page](https://www.hoyolab.com/circles), press F12 to enter the console.  
-   Paste the following code and run it to get the token. Copy the token and fill it in "quotes".
+   Sau khi vào [Trang đăng ký HoYoLAB](https://www.hoyolab.com/circles), nhấn F12 để vào bảng điều khiển.  
+   Dán mã sau và chạy nó để lấy mã thông báo. Sao chép mã thông báo và điền vào "dấu ngoặc kép".
+
    ```javascript
    function getCookie(name) {
       const value = `; ${document.cookie}`;
@@ -77,25 +78,25 @@ Vui lòng đăng xuất tài khoản HoYoLAB, sau đó hãy đăng nhập lại,
 
 2. **gi** - Genshin Impact
 
-   Whether to enable auto check in for Genshin Impact.  
-   If you want, set it to true. If not, please set it to false.  
-   If you do not play Genshin Impact, or your account is not bound to a uid, please set it to false.
+   Bạn có muốn tự động check-in cho Genshin Impact hay không.  
+   Nếu bạn muốn, hãy đặt nó thành "true". Nếu không, vui lòng đặt nó thành "false".  
+   Nếu bạn không chơi Genshin Impact hoặc tài khoản của bạn không liên kết với uid, vui lòng đặt nó thành "false".
 
 3. **hsr** - Honkai: Star Rail
 
-   Whether to enable auto check in for Honkai: Star Rail.  
-   If you want, set it to true. If not, please set it to false.  
-   If you do not play Honkai: Star Rail, or your account is not bound to a uid, please set it to false.
+   Bạn có muốn tự động check-in cho Honkai: Star Rail hay không.  
+   Nếu bạn muốn, hãy đặt nó thành "true". Nếu không, vui lòng đặt nó thành "false".  
+   Nếu bạn không chơi Honkai: Star Rail hoặc tài khoản của bạn không liên kết với uid, vui lòng đặt nó thành "false".
+   
+5. **hi3** - Honkai Impact 3
 
-4. **hi3** - Honkai Impact 3
+   Bạn có muốn tự động check-in cho Honkai Impact 3 hay không.  
+   Nếu bạn muốn, hãy đặt nó thành "true". Nếu không, vui lòng đặt nó thành "false".  
+   Nếu bạn không chơi Honkai Impact 3 hoặc tài khoản của bạn không liên kết với uid, vui lòng đặt nó thành "false".
 
-   Whether to enable auto check in for Honkai Impact 3rd.  
-   If you want, set it to true. If not, please set it to false.  
-   If you do not play Honkai Impact 3rd, or your account is not bound to a uid, please set it to false.
+6. **accountName** - Vui lòng nhập biệt danh tùy chỉnh của bạn.
 
-5. **accountName** - Please enter your customized nickname.
-
-   Please enter your customized HoYoLAB or in-game nickname here.
+Vui lòng nhập tên của bạn trên HoYoLAB hoặc biệt danh trong trò chơi của bạn tại đây.
 
 </details>
 
